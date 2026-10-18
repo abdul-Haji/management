@@ -14,7 +14,7 @@ export default function ProfilePage() {
         Profile
       </h1>
       <p className="mt-2 text-muted-foreground">
-        Manage your profile, preferences, and account.
+        Manage your profile, preferences, and account account
       </p>
 
       <div className="mt-6 grid gap-6 md:grid-cols-3">
