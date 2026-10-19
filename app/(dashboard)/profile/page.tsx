@@ -29,7 +29,6 @@ export default function ProfilePage() {
             </div>
           </div>
         </div>
-
         <div className="rounded-xl bg-background p-4 ring-1 ring-border">
           <h3 className="mb-3 font-medium text-foreground">Preferences</h3>
           <div className="flex items-center justify-between py-2">
@@ -44,19 +43,18 @@ export default function ProfilePage() {
             <Switch checked={energySaving} onCheckedChange={setEnergySaving} />
           </div>
         </div>
-
         <div className="rounded-xl bg-background p-4 ring-1 ring-border">
           <h3 className="mb-3 font-medium text-foreground">Shortcuts</h3>
           <ul className="grid grid-cols-2 gap-3 text-sm">
             <li className="rounded-lg bg-primary/10 p-3 text-primary">
-              Good Morning
+              Good Morning !
             </li>
             <li className="rounded-lg bg-primary/10 p-3 text-primary">
-              Good Night
+              Good Night !
             </li>
             <li className="rounded-lg bg-primary/10 p-3 text-primary">Away</li>
             <li className="rounded-lg bg-primary/10 p-3 text-primary">
-              Movie Time
+              Movie Time !
             </li>
           </ul>
         </div>
